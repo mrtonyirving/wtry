@@ -136,7 +136,7 @@ export function AiSearchInterfaceStarter({
         {/* Logo and Title */}
         <div className="w-full text-center mb-10">
           <div className="flex justify-center mb-4">
-            <img src="/logo.svg" alt="Wayless" className="h-14 w-14" />
+            <img src="/logo.svg" alt="wayles" className="h-14 w-14" />
           </div>
           <h1 className="text-2xl font-semibold mb-2">
             Biomedical Research Made Simple

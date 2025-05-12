@@ -45,7 +45,7 @@ function Index() {
     <>
       <div className="container flex flex-col gap-8 items-center md:pt-40">
         <div className="items-center justify-center flex flex-col gap-4">
-          <img src={logo} alt="Wayless" className="h-[72px] w-[72px]" />
+          <img src={logo} alt="wayles" className="h-[72px] w-[72px]" />
           <h1 className="text-3xl font-semibold">Medical research made easy</h1>
         </div>
 

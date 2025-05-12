@@ -66,8 +66,8 @@ const Navbar = ({ signOut }: NavbarProps) => {
     <header className="border-b bg-white">
       <div className="flex items-center h-12 gap-2">
         <Link to="/" className="flex items-center">
-          <img src="/logo.svg" alt="Wayless" className="h-6 ml-4" />
-          <h1 className="text-2xl pl-4 font-bold">Wayless</h1>
+          <img src="/logo.svg" alt="wayles" className="h-6 ml-4" />
+          <h1 className="text-2xl pl-4 font-bold">wayles</h1>
         </Link>
 
         <nav className="ml-12 lg:ml-24">
@@ -108,7 +108,7 @@ const Navbar = ({ signOut }: NavbarProps) => {
             onClick={() => {
               const subject = "AI powered PubMed search";
               const body =
-                "Hey, I'd like to invite you to try Wayless, a platform for medical research.\n\nYou can find it here: https://wayless.ai\n\nYou can also schedule a chat with the cofounders to get a demo: https://cal.com/wayless/demo?user=wayless";
+                "Hey, I'd like to invite you to try wayles, a platform for medical research.\n\nYou can find it here: https://wayles.ai\n\nYou can also schedule a chat with the cofounders to get a demo: https://cal.com/wayles/demo?user=wayles";
               window.location.href = `mailto:?subject=${encodeURIComponent(
                 subject
               )}&body=${encodeURIComponent(body)}`;
